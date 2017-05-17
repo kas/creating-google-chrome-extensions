@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "WSandES",
+  "description": "",
+  "externally_connectable": {
+    //Extensions and app ids. If this field is not specified, no
+    //extensions or apps can communicate
+    //"ids": [], //To match all extensions and apps, specify only "*"
+    //Allowed webpages
+    "matches": ["*://localhost/*"]
+  }
+}
