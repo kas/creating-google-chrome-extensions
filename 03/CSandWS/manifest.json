@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Communication Demo: content-script and webpage-script",
+  "description": "Shows communication b/w content-script and ...",
+  "version": "1.2",
+  "content_scripts": [
+    {
+      "matches": ["file://*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
